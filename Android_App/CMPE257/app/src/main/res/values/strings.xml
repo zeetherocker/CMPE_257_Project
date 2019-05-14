@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CMPE257</string>
+    <string name="channel">CHANNEL_CMPE255</string>
+    <string name="channel_desc">CHANNEL_DEMO_CMPE255</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="status_bar_half_height">12dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="default_toolbar_elevation">4dp</dimen>
+
+    <dimen name="toolbar_plus_statusbar">80dp</dimen>
+
+    <dimen name="enable_card_margin">24dp</dimen>
+    <dimen name="enable_card_height">64dp</dimen>
+    <dimen name="enable_card_max_radius">28dp</dimen>
+    <dimen name="enable_card_app_title_size">15sp</dimen>
+    <dimen name="enable_card_app_title_size_max">18sp</dimen>
+    <dimen name="main_card_elevation_min">0dp</dimen>
+    <dimen name="main_card_elevation_max">3dp</dimen>
+
+    <!-- App List -->
+    <dimen name="app_list_hint_text_height">100dp</dimen>
+    <dimen name="app_list_hint_margin">4dp</dimen>
+    <dimen name="app_list_search_card_marginBottom">8dp</dimen>
+    <dimen name="app_list_search_card_height">56dp</dimen>
+    <dimen name="app_list_search_card_radius">28dp</dimen>
+    <dimen name="app_list_recycler_top_margin">8dp</dimen>
+
+    <!-- Profile Creation -->
+    <dimen name="expand_layout_height">50dp</dimen>
+
+    <!-- FAB Size -->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>a
+
+    <!-- ABOUT DEV -->
+    <dimen name="close_fab_size">75dp</dimen>
+    <dimen name="sliding_panel_height">50dp</dimen>
+</resources>

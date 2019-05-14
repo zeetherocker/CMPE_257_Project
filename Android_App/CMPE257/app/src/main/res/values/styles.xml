@@ -1,0 +1,236 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MatchParent" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="DefaultButtonOnCard">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">13dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">@drawable/elevation_animator</item>
+        <item name="cardBackgroundColor">@color/deep_orange_status</item>
+        <item name="cardCornerRadius">25dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+
+    <style name="BasicLinearLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="AppListItemCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="AppListItemCardContainer" parent="BasicLinearLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/chrome_cardBack_grey</item>
+        <item name="android:weightSum">5</item>
+    </style>
+
+    <style name="AppListItemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="ToolbarStyle" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/toolbar_text_light</item>
+        <item name="actionMenuTextColor">@color/toolbar_text_light</item>
+        <item name="android:textColorSecondary">@color/toolbar_secondary_text_light</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="CardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+
+
+    <style name="CardTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/deep_orange</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">13dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="CardTitle.Bold" parent="CardTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardTitle.Light" parent="CardTitle">
+        <item name="android:layout_marginLeft">4dp</item>
+    </style>
+
+
+
+    <style name="BackButton">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="srcCompat">@drawable/back</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="CrimeTypeText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <!-- App Name on Main Activity -->
+    <style name="MainActivityTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textColor">@color/blue_status</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowColor">#7f000000</item>
+    </style>
+
+    <style name="CardSubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="CardTitleDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4px</item>
+        <item name="android:background">@color/deep_orange</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="DefaultButtonOnCardText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+        <item name="android:text">DEFAULT</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BackButtonContainer">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginTop">@dimen/status_bar_height</item>
+    </style>
+
+    <!-- Misc Settings Cards -->
+    <style name="MainCardView" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="MainCardContainer" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">96dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">4</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/chrome_cardBack_grey</item>
+    </style>
+
+    <style name="MainCardTextContainer" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="MainCardText" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+    </style>
+
+    <style name="MainCardText.Big" parent="MainCardText" >
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textColor">@color/chrome_text</item>
+    </style>
+
+    <style name="MainCardText.Small" parent="MainCardText" >
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/chrome_text_small</item>
+    </style>
+
+    <style name="MainCardImageContainer" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="MainCardDummyRippleView" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/background_ripple</item>
+    </style>
+    <!-- End of Misc Cards -->
+</resources>

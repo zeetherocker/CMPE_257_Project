@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/MainCardView" android:id="@+id/cardView0">
+
+<LinearLayout style="@style/MainCardContainer">
+    <LinearLayout style="@style/MainCardTextContainer">
+        <TextView style="@style/MainCardText.Big" android:text="Object Classifier" />
+        <TextView style="@style/MainCardText.Small" android:text="Check the validation of the model" />
+    </LinearLayout>
+</LinearLayout>
+<View android:id="@+id/card0" style="@style/MainCardDummyRippleView" />
+</android.support.v7.widget.CardView>

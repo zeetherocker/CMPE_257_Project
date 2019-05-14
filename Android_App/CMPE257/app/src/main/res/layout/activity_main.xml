@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:id="@+id/rootLayout"
+              android:orientation="vertical"
+              tools:context=".Activities.MainActivity">
+
+    <FrameLayout
+            android:id="@+id/appIconContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/status_bar_height"/>
+
+            <com.zeeshan.cmpe257.Tools.AnimatedIcon
+                    android:id="@+id/appIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <TextView android:id="@+id/appName"
+                  style="@style/MainActivityTitle"
+                  android:layout_marginTop="@dimen/status_bar_half_height"/>
+    </FrameLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <include layout="@layout/main_content_card0" />
+            <include layout="@layout/main_content_card1" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
